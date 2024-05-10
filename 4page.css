@@ -1,0 +1,41 @@
+body{
+   background-color: black;
+   padding: auto;
+   margin: auto;
+}
+.img5{
+   height: 450px;
+   width: 250px;
+
+}
+.img4{
+  height: 450px;
+   width: 250px;
+}
+.images {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: auto;
+}
+.img1{
+   height: 450px;
+    width: 250px;
+ }
+ .img2{
+   height: 450px;
+    width: 250px;
+ }
+ .img3{
+   height: 450px;
+    width: 250px;
+ }
+ .posts-container{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 2rem;
+  } 
+  .images{
+   background: white;
+   border: 1px solid black;
+
+}

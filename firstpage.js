@@ -44,12 +44,7 @@ recognition.onresult = (event) => {
         const response = 'Hello this sai assistent how can i help you!';
         document.getElementById('output-area').textContent = response;
         speak(response); // Speak the response
-    } else if (transcript.toLowerCase().includes('open website')) {
-        // Implement your action here (e.g., window.location.href = 'https://example.com')
-        const response = 'Opening website...';
-        document.getElementById('output-area').textContent = response;
-        speak(response); // Speak the response
-    } else if (transcript.toLowerCase().includes('open family')) {
+    }else if (transcript.toLowerCase().includes('open family')) {
         // Implement your action here (e.g., window.location.href = 'https://example.com')
         const filePath = './page.html';
         window.location.href = filePath;
@@ -75,11 +70,7 @@ recognition.onresult = (event) => {
         document.getElementById('output-area').textContent = response;
         speak(response); // Speak the response
     }
-    else if (transcript.toLowerCase().includes('open face')) {
-        // Implement your action here (e.g., window.location.href = 'https://example.com')
-        const websiteUrl = 'https://example.com';
-        window.location.href = websiteUrl;
-    } else if (transcript.toLowerCase().includes('who is your boss')) {
+     else if (transcript.toLowerCase().includes('who is your boss')) {
         const response = 'sai kumar';
         document.getElementById('output-area').textContent = response;
         speak(response); // Speak the response

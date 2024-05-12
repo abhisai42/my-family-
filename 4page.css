@@ -46,6 +46,20 @@ body{
    height: 450px;
     width: 250px;
  }
+ .img8{
+   height: 450px;
+    width: 250px;
+ }
+ .img6{
+   height: 450px;
+    width: 250px;
+ }
+ .img7{
+   height: 450px;
+    width: 250px;
+ }
+
+
  .posts-container{
    display: grid;
    grid-template-columns: repeat(3,1fr);

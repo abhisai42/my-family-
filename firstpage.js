@@ -91,27 +91,28 @@ recognition.onresult = (event) => {
         const websiteUrl = 'https://www.instagram.com';
         window.open(websiteUrl, '_blank');
     }else if (transcript.toLowerCase().includes('open facebook')) {
+        // Implement your action here (e.g., window.location.href = 'https://example.com')
         const response = 'opening facebook';
         document.getElementById('output-area').textContent = response;
         speak(response);
-        // Implement your action here (e.g., window.location.href = 'https://example.com')
-        const websiteUrl = 'https://www.facebook.com/';
+        const websiteUrl = 'https://www.facebook.com';
         window.open(websiteUrl, '_blank');
     }else if (transcript.toLowerCase().includes('open snapchat')) {
-        const response = 'opening sanpchart';
+        // Implement your action here (e.g., window.location.href = 'https://example.com')
+        const response = 'opening snapchat';
         document.getElementById('output-area').textContent = response;
         speak(response);
-        // Implement your action here (e.g., window.location.href = 'https://example.com')
         const websiteUrl = 'https://www.snapchat.com';
         window.open(websiteUrl, '_blank');
     }else if (transcript.toLowerCase().includes('open google')) {
+        // Implement your action here (e.g., window.location.href = 'https://example.com')
         const response = 'opening google';
         document.getElementById('output-area').textContent = response;
         speak(response);
-        // Implement your action here (e.g., window.location.href = 'https://example.com')
         const websiteUrl = 'https://www.google.com';
-        window.open(websiteUrl, '_blank');}
-     else if (transcript.toLowerCase().includes('who is sai father')) {
+        window.open(websiteUrl, '_blank');
+    }
+      else if (transcript.toLowerCase().includes('who is sai father')) {
         const response = 'krishna murthi';
         document.getElementById('output-area').textContent = response;
         speak(response);

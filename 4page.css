@@ -26,6 +26,14 @@ body{
    background: white;
    
 }
+.sisters {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.5rem;
+   boder:10px soild black;
+   background: white;
+   
+}
 .img1{
    height: 450px;
     width: 250px;

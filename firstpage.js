@@ -111,6 +111,16 @@ recognition.onresult = (event) => {
         // Implement your action here (e.g., window.location.href = 'https://example.com')
         const websiteUrl = 'https://www.google.com';
         window.open(websiteUrl, '_blank');}
+     else if (transcript.toLowerCase().includes('who is sai father')) {
+        const response = 'krishna murthi';
+        document.getElementById('output-area').textContent = response;
+        speak(response);
+       }
+         else if (transcript.toLowerCase().includes('who is sai mother')) {
+        const response = 'pushpalatha';
+        document.getElementById('output-area').textContent = response;
+        speak(response);
+       }
     else {
         const response = "I didn't understand.";
         document.getElementById('output-area').textContent = response;

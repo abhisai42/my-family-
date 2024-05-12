@@ -1,3 +1,9 @@
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
 body{
    background-color: black;
    padding: auto;
@@ -15,7 +21,10 @@ body{
 .images {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  gap: auto;
+  gap: 1.5rem;
+   boder:10px soild black;
+   background: white;
+   
 }
 .img1{
    height: 450px;
@@ -34,8 +43,3 @@ body{
    grid-template-columns: repeat(3,1fr);
    gap: 2rem;
   } 
-  .images{
-   background: white;
-   border: 1px solid black;
-
-}

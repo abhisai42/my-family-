@@ -53,7 +53,7 @@ recognition.onresult = (event) => {
         // Implement your action here (e.g., window.location.href = 'https://example.com')
         const filePath = './page.html';
         window.location.href = filePath;
-    }else if (transcript.toLowerCase().includes('what is Sai study')) {
+    }else if (transcript.toLowerCase().includes('what is sai study')) {
         // Implement your action here (e.g., window.location.href = 'https://example.com')
         const response = 'B tech 3rd year';
         document.getElementById('output-area').textContent = response;
@@ -66,11 +66,11 @@ recognition.onresult = (event) => {
         const response = 'gandesri saikumar';
         document.getElementById('output-area').textContent = response;
         speak(response); // Speak the response
-    }else if (transcript.toLowerCase().includes('who is Sai best friend')) {
+    }else if (transcript.toLowerCase().includes('who is sai best friend')) {
         const response = 'gandesri sanjay';
         document.getElementById('output-area').textContent = response;
         speak(response); // Speak the response
-    }else if (transcript.toLowerCase().includes('Jarvis speak up')) {
+    }else if (transcript.toLowerCase().includes('jarvis speak up')) {
         const response = 'hello boss how is your day';
         document.getElementById('output-area').textContent = response;
         speak(response); // Speak the response
@@ -90,21 +90,21 @@ recognition.onresult = (event) => {
         speak(response);
         const websiteUrl = 'https://www.instagram.com';
         window.open(websiteUrl, '_blank');
-    }else if (transcript.toLowerCase().includes('open Facebook')) {
+    }else if (transcript.toLowerCase().includes('open facebook')) {
         const response = 'opening facebook';
         document.getElementById('output-area').textContent = response;
         speak(response);
         // Implement your action here (e.g., window.location.href = 'https://example.com')
         const websiteUrl = 'https://www.facebook.com/';
         window.open(websiteUrl, '_blank');
-    }else if (transcript.toLowerCase().includes('open Snapchat')) {
+    }else if (transcript.toLowerCase().includes('open snapchat')) {
         const response = 'opening sanpchart';
         document.getElementById('output-area').textContent = response;
         speak(response);
         // Implement your action here (e.g., window.location.href = 'https://example.com')
         const websiteUrl = 'https://www.snapchat.com';
         window.open(websiteUrl, '_blank');
-    }else if (transcript.toLowerCase().includes('open Google')) {
+    }else if (transcript.toLowerCase().includes('open google')) {
         const response = 'opening google';
         document.getElementById('output-area').textContent = response;
         speak(response);

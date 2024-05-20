@@ -52,7 +52,11 @@ recognition.onresult = (event) => {
         // Implement your action here (e.g., window.location.href = 'https://example.com')
         const filePath = './vignesh.html';
         window.location.href = filePath;
-    }
+    }else if (transcript.toLowerCase().includes('open vihan album')) {
+        // Implement your action here (e.g., window.location.href = 'https://example.com')
+        const filePath = './page.html';
+        window.location.href = filePath;
+    }//................................................................................................
     else if (transcript.toLowerCase().includes('what is sai study')) {
         // Implement your action here (e.g., window.location.href = 'https://example.com')
         const response = 'B tech 3rd year';

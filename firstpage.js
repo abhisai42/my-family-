@@ -48,7 +48,7 @@ recognition.onresult = (event) => {
         // Implement your action here (e.g., window.location.href = 'https://example.com')
         const filePath = './page.html';
         window.location.href = filePath;
-    }else if (transcript.toLowerCase().includes('open vignesh album ')) {
+    }else if (transcript.toLowerCase().includes('open vignesh album')) {
         // Implement your action here (e.g., window.location.href = 'https://example.com')
         const filePath = './vignesh.html';
         window.location.href = filePath;

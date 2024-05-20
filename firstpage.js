@@ -48,13 +48,18 @@ recognition.onresult = (event) => {
         // Implement your action here (e.g., window.location.href = 'https://example.com')
         const filePath = './page.html';
         window.location.href = filePath;
-    }else if (transcript.toLowerCase().includes('what is sai study')) {
+    }else if (transcript.toLowerCase().includes('open vignesh album ')) {
+        // Implement your action here (e.g., window.location.href = 'https://example.com')
+        const filePath = './vignesh.html';
+        window.location.href = filePath;
+    }
+    else if (transcript.toLowerCase().includes('what is sai study')) {
         // Implement your action here (e.g., window.location.href = 'https://example.com')
         const response = 'B tech 3rd year';
         document.getElementById('output-area').textContent = response;
         speak(response); // Speak the response
-    }else if (transcript.toLowerCase().includes('where is Sai love')) {
-        const response = 'in sai heart';
+    }else if (transcript.toLowerCase().includes('what is your name')) {
+        const response = 'Jarvis ';
         document.getElementById('output-area').textContent = response;
         speak(response); // Speak the response
     }else if (transcript.toLowerCase().includes('who created you')) {
@@ -81,7 +86,14 @@ recognition.onresult = (event) => {
         speak(response);
         const websiteUrl = 'https://www.instagram.com';
         window.open(websiteUrl, '_blank');
-    }else if (transcript.toLowerCase().includes('open facebook')) {
+    }else if (transcript.toLowerCase().includes('open youtube')) {
+        // Implement your action here (e.g., window.location.href = 'https://example.com')
+        const response = 'opening YouTube';
+        document.getElementById('output-area').textContent = response;
+        speak(response);
+        const websiteUrl = 'https://www.youtube.com/';
+        window.open(websiteUrl, '_blank');
+     }else if (transcript.toLowerCase().includes('open facebook')) {
         // Implement your action here (e.g., window.location.href = 'https://example.com')
         const response = 'opening facebook';
         document.getElementById('output-area').textContent = response;
@@ -105,6 +117,11 @@ recognition.onresult = (event) => {
     }
       else if (transcript.toLowerCase().includes('who is sai father')) {
         const response = 'krishna murthi';
+        document.getElementById('output-area').textContent = response;
+        speak(response);
+       }
+        else if (transcript.toLowerCase().includes('what is the names of sai bammaridi')) {
+        const response = 'vignesh and vihan';
         document.getElementById('output-area').textContent = response;
         speak(response);
        }
